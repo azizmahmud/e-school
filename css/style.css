@@ -1,0 +1,293 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Common Css Start  */
+
+.container{
+    max-width: 1194px;
+}
+
+.custom-btn{
+    padding: 12px 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #21B573;
+    transition: all 0.2s linear;
+}
+.custom-btn:hover{
+    background-color: #FD511A;
+    color: #fff;
+    
+}
+
+
+.custom-btn-sm{
+    padding: 8px 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #21B573;
+    transition: all 0.2s linear;
+}
+.custom-btn-sm:hover{
+    background-color: #FD511A;
+    color: #fff;
+    
+}
+
+/* Common Css End */
+
+
+
+/* Header Start  */
+
+.header{
+    background-color: #F0FFF0;
+}
+.navbar-brand{
+    max-width: 200px;
+}
+.menu-links{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-inline: 24px !important;
+}
+
+
+
+.sub-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+    color: #FD511A;
+    padding: 0px !important;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #000000;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.title span{
+    color: #21B573;
+    
+}
+.pera{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    font-weight: 400;
+    color: #6C6B6B;
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+
+
+
+
+/* Header End*/
+
+
+
+/* Hero Section Start */
+
+.hero-section{
+    background-color: #F0FFF0;
+    padding-block: 64px;
+}
+.hero-section .title{
+    margin-bottom: 20px !important;
+    max-width: 405px;
+}
+.hero-section .custom-btn{
+    margin-top:24px;
+}
+.hero-section .pera{
+    max-width: 405px;
+}
+/* Hero Section End */
+
+
+/* Achivement Section Start */
+.achivement-section{
+    padding-block: 50px;
+}
+.achivement-wrapper{
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    padding:50px 30px;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+.achivement-wrapper:hover{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.achivement-wrapper .icon{
+    width: 64px;
+    min-height: 80px;
+    margin-inline: auto;
+}
+.achivement-wrapper h3{
+
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.achivement-wrapper p{
+
+}
+/* Achivement Section End */
+
+
+
+/* Course Section Start  */
+
+.course-section{
+    padding-block: 64px;
+}
+.course-section-title{
+    text-align: center;
+    margin-bottom: 64px !important;
+}
+.course-wrapper{
+    background-color: #fff;
+    padding:24px 20px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.course-img{
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.course-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+.course-pera{
+    margin-top:3px;
+
+}
+.course-info .custom-btn-sm{
+    margin-top:20px;
+}
+
+.dateAndSeat-wapper{
+    margin-top: 34px;
+}
+
+.date .pera{
+    margin-left: 10px !important;
+    font-weight: 500;
+
+}
+
+.seat .pera{
+    margin-left: 10px !important;
+    font-weight: 500;
+
+}
+/* Course Section End */
+
+
+
+
+
+/* Testimonial Section Start */
+
+
+.testimonial-section{
+    padding-bottom: 120px;
+}
+
+
+.testimonia-section-title{
+    text-align: center;
+    margin-bottom: 64px !important;
+}
+
+
+.testimonial-wrapper{
+    display: flex;
+    align-items: center;
+    gap:52px;
+}
+.client-img{
+    width: 120px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.review{
+    width: 100%;
+}
+
+/* Testimonial Section End */
+
+
+.footer{
+    padding-block: 64px;
+    background-color: #282531;
+}
+.footer-logo{
+    width: 150px !important;
+}
+
+.footer-text{
+    color: #fff;
+    margin-top: 24px !important;
+ 
+}
+
+.footer-link-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #fff;
+    display: block;
+    margin-bottom: 16px;
+
+}
+
+.footer-botom{
+
+    padding: 20px;
+    background-color: #282531;
+    color: #fff !important;
+}
+.footer-botom-text{
+    color: #fff;
+    text-align: center;
+    text-align: center !important;
+}
+.footer-botom-text>a{
+    text-decoration: none !important;
+    color: #fff;
+}
